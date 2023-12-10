@@ -14,8 +14,8 @@
       <UButton
         icon="i-heroicons-pencil-square"
         size="xl"
-        color="white"
-        variant="outline"
+        color="emerald"
+        variant="solid"
         label="AGENDAR"
         trailing
       />

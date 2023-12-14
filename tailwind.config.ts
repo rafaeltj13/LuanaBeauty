@@ -19,6 +19,9 @@ export default <Partial<Config>>{
           950: "#527853",
         },
       },
+      fontFamily: {
+        sans: ["Montserrat", "system-ui", "sans-serif"],
+      },
     },
   },
 };

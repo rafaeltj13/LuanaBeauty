@@ -1,6 +1,7 @@
 export default defineAppConfig({
   ui: {
-    safelistColors: ["primary"],
+    safelistColors: ["primary", "secondary"],
     primary: "green",
+    secondary: "neutral",
   },
 });

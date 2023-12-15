@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-primary w-full md:h-[60vh]">
+  <div class="bg-primary w-full md:h-[60vh] flex items-center">
     <div
-      class="text-[#e7e5e4] flex flex-col-reverse md:flex-row items-center justify-between max-w-[1160px] mx-auto w-full h-full"
+      class="text-secondary flex flex-col-reverse md:flex-row items-center justify-between max-w-[1160px] mx-auto"
     >
       <div class="md:max-w-[50%] w-full md:p-0 p-8">
         <h1 class="text-4xl">BELEZA NATURALMENTE SUA.</h1>

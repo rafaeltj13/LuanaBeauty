@@ -1,6 +1,6 @@
 <template>
   <TheHeroBanner />
-  <div class="bg-[#e7e5e4] w-full h-[60vh]"></div>
+  <TheSocialSection />
 </template>
 
 <script setup lang="ts">

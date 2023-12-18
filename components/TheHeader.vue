@@ -9,7 +9,6 @@
       <p class="text-4xl cursor-pointer text-secondary">LOGO</p>
       <div class="flex items-center gap-8">
         <UButton size="lg" color="white" variant="link" label="Serviços" />
-        <UButton size="lg" color="white" variant="link" label="Contato" />
         <UButton size="lg" color="white" variant="link" label="Perguntas" />
       </div>
       <UButton

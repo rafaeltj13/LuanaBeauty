@@ -1,6 +1,8 @@
 <template>
   <TheHeroBanner />
   <TheSocialSection />
+  <TheDesciptionSection />
+  <TheFooter />
 </template>
 
 <script setup lang="ts">

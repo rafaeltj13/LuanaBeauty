@@ -1,7 +1,7 @@
 <template>
   <div class="bg-secondary w-full">
     <div
-      class="max-w-[1160px] w-full mx-auto flex items-center justify-center gap-4 py-20 md:px-0 px-8 flex-wrap"
+      class="max-w-[1160px] w-full mx-auto flex items-center justify-center gap-10 py-20 lg:px-0 px-8 flex-wrap"
     >
       <TheSocialCard
         cover-src="/cover.jpg"

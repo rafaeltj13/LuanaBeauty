@@ -1,9 +1,31 @@
 <template>
-  <div class="bg-primary w-full py-20 flex items-center">
+  <div class="bg-primary w-full py-12 flex items-center">
     <div
-      class="lg:px-0 px-8 text-secondary flex lg:flex-nowrap flex-wrap items-center justify-center lg:justify-between max-w-[1160px] mx-auto"
+      class="xl:px-0 md:px-8 px-0 text-secondary flex flex-col items-center justify-center lg:flex-row lg:justify-between max-w-[1160px] mx-auto w-full"
     >
-      Footer
+      <p
+        class="text-4xl cursor-pointer text-secondary lg:pb-0 pb-8"
+        @click="navigateTo('/')"
+      >
+        LOGO
+      </p>
+      <div class="flex items-center gap-4">
+        <UButton
+          icon="i-ph-instagram-logo"
+          size="sm"
+          color="primary"
+          square
+          variant="solid"
+        />
+        <UButton
+          icon="i-ph-whatsapp-logo"
+          size="sm"
+          color="primary"
+          square
+          variant="solid"
+        />
+        <p class="text-xl text-secondary font-bold">Khali Beauty</p>
+      </div>
     </div>
   </div>
 </template>

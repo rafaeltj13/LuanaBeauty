@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary w-full py-20 flex items-center">
     <div
-      class="lg:px-0 px-8 text-secondary flex lg:flex-nowrap flex-wrap items-center justify-center lg:justify-between max-w-[1160px] mx-auto"
+      class="px-8 xl:px-0 text-secondary flex lg:flex-nowrap flex-wrap items-center justify-center lg:justify-between max-w-[1160px] mx-auto"
     >
       <div class="lg:pr-8 lg:pb-0 pb-8">
         <img
@@ -20,9 +20,12 @@
       </div>
     </div>
   </div>
-  <div class="bg-secondary w-full py-20 flex items-center">
+  <div
+    class="bg-secondary w-full py-20 flex items-center"
+    :key="new Date().toISOString()"
+  >
     <div
-      class="lg:px-0 px-8 text-primary flex lg:flex-nowrap flex-wrap-reverse items-center justify-center lg:justify-between max-w-[1160px] mx-auto"
+      class="px-8 xl:px-0 text-primary flex lg:flex-nowrap flex-wrap-reverse items-center justify-center lg:justify-between max-w-[1160px] mx-auto"
     >
       <div class="lg:pr-10 lg:pt-0 pt-8">
         Na <span class="font-bold">Khali Beauty</span>, acreditamos que a beleza

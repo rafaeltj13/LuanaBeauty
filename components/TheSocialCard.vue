@@ -1,7 +1,6 @@
 <template>
   <div
-    class="rounded-xl h-96 w-80 shadow-xl cursor-pointer hover:shadow-2xl hover:border-2 hover:border-primary transition ease-in-out"
-    :key="new Date().toISOString()"
+    class="rounded-xl h-96 w-80 shadow-xl cursor-pointer hover:border hover:border-primary-green hover:shadow-2xl transition-all"
     @click="redirectToLink"
   >
     <img
@@ -16,7 +15,7 @@
         class="w-12 h-12 rounded-full mr-4"
       />
       <div class="flex flex-col justify-start items-start">
-        <p class="text-primary text-xl font-bold">{{ name }}</p>
+        <p class="text-primary-green text-xl font-bold">{{ name }}</p>
         <p class="text-sm pt-3">{{ description }}</p>
       </div>
     </div>

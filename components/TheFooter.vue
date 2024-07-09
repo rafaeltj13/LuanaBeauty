@@ -13,36 +13,31 @@ const openInstagram = () => {
 </script>
 
 <template>
-  <div class="bg-primary w-full py-12 flex items-center">
+  <div class="bg-primary-green w-full flex items-center">
     <div
-      class="xl:px-0 md:px-8 px-0 text-secondary flex flex-col items-center justify-center lg:flex-row lg:justify-between max-w-screen-lg mx-auto w-full"
+      class="xl:px-0 md:px-8 px-0 text-secondary-green flex flex-col items-center justify-center lg:flex-row lg:justify-between max-w-screen-lg mx-auto w-full"
     >
-      <p
-        class="text-4xl cursor-pointer text-secondary lg:pb-0 pb-8"
-        @click="navigateTo('/')"
-      >
-        LOGO
-      </p>
+      <img src="/logo-name-secondary.png" class="w-60 h-52" />
       <div
-        class="flex items-center gap-2 text-neutral-50 cursor-pointer md:mb-0 mb-4"
+        class="flex items-center gap-2 text-secondary-green cursor-pointer md:mb-0 mb-4"
         @click="scrollToTop"
       >
         <p class="text-md">Voltar ao topo</p>
         <UIcon name="i-ph-caret-double-up-bold" class="text-xs" />
       </div>
-      <div class="flex items-center gap-4">
+      <div class="flex items-center justify-end gap-4 w-60">
         <UIcon
           name="i-ph-whatsapp-logo"
-          class="text-3xl text-neutral-50 cursor-pointer"
+          class="text-3xl text-secondary-green cursor-pointer"
         />
         <UIcon
           name="i-ph-instagram-logo"
-          class="text-3xl text-neutral-50 cursor-pointer"
+          class="text-3xl text-secondary-green cursor-pointer"
           @click="openInstagram"
         />
         <UIcon
           name="i-ph-envelope"
-          class="text-3xl text-neutral-50 cursor-pointer"
+          class="text-3xl text-secondary-green cursor-pointer"
         />
       </div>
     </div>

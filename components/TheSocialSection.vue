@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-secondary w-full">
+  <div class="bg-background-light w-full">
     <div
       class="max-w-screen-lg w-full mx-auto flex items-center justify-center gap-8 py-32 lg:px-0 px-8 flex-wrap"
     >

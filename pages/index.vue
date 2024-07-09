@@ -6,5 +6,5 @@
 </template>
 
 <script setup lang="ts">
-useHead({ title: "Khali Beauty" });
+useHead({ title: "Luana Tomaz Beauty" });
 </script>

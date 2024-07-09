@@ -10,6 +10,10 @@ const scrollToTop = () => {
 const openInstagram = () => {
   window.open("https://www.instagram.com/luanatbeauty/", "_blank");
 };
+
+const sendToWhatsapp = () => {
+  window.open("https://wa.me/5585999999999", "_blank");
+};
 </script>
 
 <template>
@@ -19,15 +23,18 @@ const openInstagram = () => {
     >
       <img src="/logo-name-secondary.png" class="w-60 h-52" />
       <div
-        class="flex items-center gap-2 text-secondary-green cursor-pointer md:mb-0 mb-4"
+        class="flex items-center gap-2 text-secondary-green cursor-pointer md:mb-0 mb-8"
         @click="scrollToTop"
       >
         <p class="text-md">Voltar ao topo</p>
         <UIcon name="i-ph-caret-double-up-bold" class="text-xs" />
       </div>
-      <div class="flex items-center justify-end gap-4 w-60">
+      <div
+        class="flex items-center justify-center pb-8 md:justify-end md:pb-0 gap-4 w-60"
+      >
         <UIcon
           name="i-ph-whatsapp-logo"
+          @click="sendToWhatsapp"
           class="text-3xl text-secondary-green cursor-pointer"
         />
         <UIcon
@@ -35,10 +42,15 @@ const openInstagram = () => {
           class="text-3xl text-secondary-green cursor-pointer"
           @click="openInstagram"
         />
-        <UIcon
-          name="i-ph-envelope"
-          class="text-3xl text-secondary-green cursor-pointer"
-        />
+        <a
+          href="mailto:luanaxsabrina@gmail.com"
+          class="flex items-center justify-center"
+        >
+          <UIcon
+            name="i-ph-envelope"
+            class="text-3xl text-secondary-green cursor-pointer"
+          />
+        </a>
       </div>
     </div>
   </div>

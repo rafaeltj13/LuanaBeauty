@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-primary-green w-full md:h-[60vh] flex items-center">
+  <div
+    class="bg-primary-green w-full md:h-[60vh] flex items-center md:pt-0 pt-16"
+  >
     <div
       class="lg:px-0 sm:!px-12 text-secondary-green flex flex-col-reverse md:flex-row items-center justify-between max-w-screen-lg mx-auto"
     >
